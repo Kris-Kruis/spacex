@@ -1,0 +1,12 @@
+.global-table-filter {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background-color: initial;
+  color: #fff;
+  outline: none;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

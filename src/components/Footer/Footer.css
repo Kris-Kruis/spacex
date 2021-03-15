@@ -1,0 +1,17 @@
+.footer {
+  display: grid;
+  grid-template-columns: 15% 1fr 15%;
+}
+
+.footer > .layout {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  grid-column: 2;
+}
+
+.footer__label {
+  font-size: 12px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,58 @@
+.missions,
+.rockets,
+.launches {
+  display: grid;
+  grid-template-rows: 100vh 100vh;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 15% 1fr 15%;
+}
+
+.section.title-page {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-image: url(../../assets/images/mission_feature.webp);
+}
+
+.section.title-page > .layout {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 0.3fr;
+  grid-template-rows: 0.6fr 1fr 0.6fr;
+  height: 100%;
+  grid-column: 2;
+}
+
+.section.title-page > .layout > .content {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+}
+
+.title-page__title {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.title-page__description {
+  font-size: 20 px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.section.table-page > .layout {
+  display: grid;
+  grid-template-rows: 5vh 90vh 5vh;
+  height: 100%;
+  grid-column: 2;
+}
+
+.section.table-page > .layout > .content {
+  grid-row: 2;
+  display: grid;
+  grid-template-rows: 100%;
+}
